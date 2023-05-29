@@ -4,74 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Студія</title>
   </head>
   <body>
     <header>
-      <h1>
-        <a href="./index.html">WEB</a>
-        <a href="./index.html">STUDIO</a>
-        <a href="./index.html">Studio</a>
-        <a href="./index.html">Portfolio</a>
-        <a href="./index.html">Contacts</a>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
-      </h1>
+      <nav>
+        <a href="/">Web</a>
+        <a href="/">Studio</a>
+        <ul>
+          <li><a href="/">Студія</a></li>
+          <li><a href="/">Портфоліо</a></li>
+          <li><a href="/">Контакти</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com" target="_blank"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+11(000)111-11-11" target="_blank"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
-    <h1>
-      <p>Effective Solutions for Your Business</p>
-    </h1>
-    <div class="wrapper">
-      <div class="step-to-success">
-        <h2 class="step-to-success-title-1">Strategy</h2>
-        <p class="step-to-success-description-1">
-          Our goal is to identify the business problem to walk away with the
-          perfect and creative solution.
-        </p>
+    <main>
+      <section>
+        <h1>
+          <p>Ефективні рішення для вашого бізнесу</p>
+        </h1>
+        <button type="button">Замовити послугу</button>
+      </section>
+      <section>
+        <h2 hidden>Друга секція</h2>
+        <ul>
+          <li>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/1.jpg"
+              width="370"
+              height="294"
+              alt="Написання кодів"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/2.jpg"
+              width="370"
+              height="294"
+              alt="Розробка мобільних додатків"
+            />
+          </li>
+          <li>
+            <img src="./images/3.jpg" width="370" height="294" alt="Дизайн" />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Наша команда</h2>
+        <div>
+          <img
+            src="./images/Ігор.jpg"
+            width="270"
+            height="260"
+            alt="Наша команда"
+          />
+        <div>
+          <h4>Ігор Дем'яненко</h4>
+          <p>Product Designer</p>
+        </div>
       </div>
-      <div class="step-to-success">
-        <h2 class="step-to-success-title-2">Punctuality</h2>
-        <p class="step-to-success-description-2">
-          Bring the key message to the brand's audience for the best price
-          within the shortest possible time.
-        </p>
+      <div>
+        <img
+            src="./images/Ольга.jpg"
+            width="270"
+            height="260"
+            alt="Наша команда"
+          />
+        <div>
+          <h4>Ольга Рєпіна</h4>
+          <p>Frontend Developer</p>
+        </div>
       </div>
-    </div>
-    <h2>
-      <a href=""
-        >Strategy
-        <p>
-          Our goal is to identify the business problem to walk away with the
-          perfect and creative solution.
-        </p>
-      </a>
-    </h2>
-    <h2>
-      <a href=""
-        >Punctuality
-        <p>
-          Bring the key message to the brand's audience for the best price
-          within the shortest possible time.
-        </p>
-      </a>
-    </h2>
-    <h2>
-      <a href=""
-        >Diligence
-        <p>
-          Research and confirm brands that present the strongest digital growth
-          opportunities and minimize risk.
-        </p>
-      </a>
-    </h2>
-    <h2>
-      <a href=""
-        >Technologies
-        <p>
-          Design practice focused on digital experiences. We bring forth a deep
-          passion for problem-solving.
-        </p>
-      </a>
-    </h2>
+      <div>
+        <img src="./images/Микола.jpg" 
+            width="270"
+            height="260"
+            alt="Наша команда" />
+            <div>
+        <h4>Микола Тарасов</h4>
+        <p>Marketing</p>
+        </div>
+      </div>
+      <div>
+        <img src="./images/Михайло.jpg"
+            width="270"
+            height="260"
+            alt="Наша команда" />
+            <div>
+              <h4>Михайло Єрмаков</h4>
+              <p>UI Designer</p>
+              </div>
+            </div>
+      </div>
+    </main>
+    
   </body>
 </html>
